@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tickspot/home.dart';
+import 'package:tickspot/Controller.dart';
+import 'package:tickspot/home_view.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -21,6 +22,6 @@ class tickSpot extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const HomeView();
+    return PageControlller();
   }
 }
