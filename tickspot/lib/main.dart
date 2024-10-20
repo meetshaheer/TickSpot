@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tickspot/Controller.dart';
-import 'package:tickspot/home_view.dart';
+import 'package:tickspot/screen/home_view.dart';
 
 void main(List<String> args) {
   runApp(MyApp());

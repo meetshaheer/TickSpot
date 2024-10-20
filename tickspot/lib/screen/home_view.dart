@@ -1,8 +1,8 @@
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:tickspot/banner-side-icon.dart';
-import 'package:tickspot/heading-one.dart';
-import 'package:tickspot/heading-three.dart';
+import 'package:tickspot/custom-components.dart/banner-side-icon.dart';
+import 'package:tickspot/custom-components.dart/heading-one.dart';
+import 'package:tickspot/custom-components.dart/heading-three.dart';
 import 'package:tickspot/theme/App-styles.dart';
 
 class HomeView extends StatefulWidget {

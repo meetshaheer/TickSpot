@@ -1,6 +1,6 @@
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:tickspot/home_view.dart';
+import 'package:tickspot/screen/home_view.dart';
 
 class PageControlller extends StatefulWidget {
   const PageControlller({super.key});
