@@ -4,6 +4,7 @@ Color primary = const Color(0xFF687daf);
 Color backgroundColor = Color(0XFFECE9EE);
 Color whiteColor = Color(0xFFF3F4FD);
 
+
 class AppStyles {
   static Color primaryColor = primary;
   static Color textColor = const Color(0xFF3b3b3b);
@@ -17,5 +18,11 @@ class AppStyles {
   static TextStyle headlineStyle3 = const TextStyle(
     fontSize: 17,
     fontWeight: FontWeight.w500,
+
+  );
+
+  static TextStyle headlineStyle2 = const TextStyle(
+    fontSize: 22,
+    fontWeight: FontWeight.bold,
   );
 }
