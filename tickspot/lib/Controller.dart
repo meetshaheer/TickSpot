@@ -10,7 +10,6 @@ class PageControlller extends StatefulWidget {
 }
 
 class Bottom_NavBarState extends State<PageControlller> {
-  @override
   //
   int _selectedIndex = 0;
   void selectedIndex(index) {

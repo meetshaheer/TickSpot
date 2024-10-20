@@ -1,8 +1,9 @@
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:tickspot/Controller.dart';
+import 'package:tickspot/banner-side-icon.dart';
+import 'package:tickspot/heading-one.dart';
+import 'package:tickspot/heading-three.dart';
 import 'package:tickspot/theme/App-styles.dart';
-import 'package:tickspot/theme/media.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
@@ -25,37 +26,24 @@ class _HomeViewState extends State<HomeView> {
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: Column(
                 children: [
-                  Row(
+                  const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(
-                            "Good Morning",
-                            style: AppStyles.headlineStyle3,
-                          ),
-                          const SizedBox(
+                          // Heading 1
+
+                          headlineThree(headline: "Good Morning"),
+                          SizedBox(
                             height: 5,
                           ),
-                          Text(
-                            "Book Tickets",
-                            style: AppStyles.headlineStyle1,
-                          )
+                          // Heading 2
+
+                          headlineOne(headline: "Book Tickets")
                         ],
                       ),
-                      Container(
-                        height: 50,
-                        width: 50,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          image: const DecorationImage(
-                            fit: BoxFit.cover,
-                            // App Media Logo
-                            image: AssetImage(AppMedia.logo),
-                          ),
-                        ),
-                      )
+                      bannerSideIcon()
                     ],
                   ),
                   const SizedBox(

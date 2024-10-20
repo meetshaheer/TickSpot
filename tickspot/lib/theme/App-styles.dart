@@ -10,7 +10,7 @@ class AppStyles {
 
   static TextStyle headlineStyle1 = TextStyle(
     fontSize: 26,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.bold,
     color: AppStyles.textColor,
   );
 
